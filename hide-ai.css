@@ -1,0 +1,20 @@
+@-moz-document domain("google.com") {
+.r4vW1e.e5IPTd /* gemini button in gmail */
+{
+    display: none;
+}
+}
+
+@-moz-document domain("youtube.com") {
+#expandable-metadata /* ai video summaries */ 
+{
+    display: none !important;
+}
+}
+
+@-moz-document domain("github.com") {
+.AppHeader-CopilotChat /* hide copilot button */
+{
+    display: none !important;
+}
+}
