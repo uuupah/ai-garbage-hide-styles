@@ -13,7 +13,8 @@
 }
 
 @-moz-document domain("github.com") {
-.AppHeader-CopilotChat /* hide copilot button */
+.AppHeader-CopilotChat, /* copilot chat button in page header */
+#\:r4n\:                /* copilot button in github text editor*/
 {
     display: none !important;
 }
