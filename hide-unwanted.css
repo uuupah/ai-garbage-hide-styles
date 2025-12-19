@@ -1,0 +1,6 @@
+@-moz-document domain("letterboxd.com") {
+  .videostore-feature, /* letterboxd movie rental advertisement */
+  .banner.banner-950   /* letterboxd pro banner */ {
+    display: none;
+  }
+}

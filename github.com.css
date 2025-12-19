@@ -1,6 +1,0 @@
-@-moz-document domain("github.com") {
-.AppHeader-CopilotChat /* hide copilot button */
-{
-    display: none !important;
-}
-}
