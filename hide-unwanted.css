@@ -4,3 +4,9 @@
   .featured-video-section /* letterboxd movie ads */ {
     display: none;
 }
+
+@-mox-document domain("discord.com") {
+  .button__74017.button__24af7 {
+    display:none;
+  }
+}
