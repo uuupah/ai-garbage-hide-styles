@@ -1,12 +1,17 @@
-@-moz-document domain("letterboxd.com") {
-  .videostore-feature,    /* letterboxd movie rental advertisement */
-  .banner.banner-950,     /* letterboxd pro banner */ 
-  .featured-video-section /* letterboxd movie ads */ {
+#credential_picker_container { /* google login popup */
     display: none;
 }
 
-@-mox-document domain("discord.com") {
-  .button__74017.button__24af7 {
+@-moz-document domain("letterboxd.com") {
+.videostore-feature,    /* letterboxd movie rental advertisement */
+  .banner.banner-950,     /* letterboxd pro banner */ 
+  .featured-video-section /* letterboxd movie ads */ {
+    display: none;
+  }
+}
+
+@-moz-document domain("discord.com") {
+.button__74017.button__24af7 {
     display:none;
   }
 }
