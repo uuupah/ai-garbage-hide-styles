@@ -1,6 +1,8 @@
-#credential_picker_container { /* google login popup */
+#credential_picker_container, /* google login popup */
+#onetrust-consent-sdk  /* onetrust cookies */
+{
     display: none;
-}
+}f
 
 @-moz-document domain("letterboxd.com") {
 .videostore-feature,    /* letterboxd movie rental advertisement */
